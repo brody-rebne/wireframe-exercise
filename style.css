@@ -1,0 +1,121 @@
+body {
+  float: left;
+  width: 100%;
+}
+
+header {
+  float: left;
+  width: 100%;
+}
+
+#logo {
+  float: left;
+  padding: 15px;
+}
+
+ul {
+  float: left;
+  width: calc(100% - 230px);
+}
+
+nav ul li {
+  float: left;
+  padding: 40px 10%;
+}
+
+.menuItem {
+  float: left;
+  margin: 20px 3%;
+  border-bottom: 2px solid #000;
+  padding: 18px 0;
+  width: 18%;
+  text-align: center;
+  font-size: 20px;
+}
+
+main {
+  float: left;
+  padding: 80px 15%;
+  width: 70%;
+  max-width: 960px;
+}
+
+#coverPhoto {
+  width: 100%;
+}
+
+#banner {
+  width: 100%;
+}
+
+.bannerImg {
+  float: left;
+  padding: 20px 0;
+  padding-right: 5%;
+  width: 30%;
+}
+
+#lastBannerImg {
+  padding-right: 0;
+}
+
+#featured {
+  width: 100%;
+}
+
+#featured * {
+  padding: 10px 0;
+}
+
+#featuredImg {
+  float:left;
+  width: 48%;
+}
+
+#callToActionBox {
+  float: right;
+  width: 48%;
+}
+
+#featuredHeader {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+#featuredText {
+  display: block;
+  height: 130px;
+  overflow: scroll;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: px;
+}
+
+#callToActionButton {
+  display: block;
+  position: absolute;
+  bottom: -15;
+  margin-top: 20px;
+  border-radius: 99px;
+  padding: 15px;
+  width: max-content;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #fff;
+  background-color: #55F;
+
+}
+
+#footer {
+  float: left;
+  width: 100%;
+  height: 150px;
+  background-color: #aaa;
+}
