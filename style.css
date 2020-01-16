@@ -6,6 +6,7 @@ body {
 header {
   float: left;
   width: 100%;
+  background-color: #bbb;
 }
 
 #logo {
@@ -97,20 +98,38 @@ main {
   line-height: px;
 }
 
+@keyframes buttonHover {
+  from {
+    color: #fff;
+    background-color: #55f;
+  }
+  to {
+    color: #55f;
+    background-color: #fff;
+  }
+}
+
 #callToActionButton {
   display: block;
   position: absolute;
   bottom: -15;
   margin-top: 20px;
-  border-radius: 99px;
-  padding: 15px;
+  border: 3px solid #55f;
+  border-radius: 25px;
+  padding: 12px;
   width: max-content;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 18px;
   font-weight: bolder;
   color: #fff;
-  background-color: #55F;
+  background-color: #55f;
+}
 
+#callToActionButton:hover {
+  color: #55f;
+  background-color: #fff;
+  animation-name: buttonHover;
+  animation-duration: .35s;
 }
 
 #footer {
